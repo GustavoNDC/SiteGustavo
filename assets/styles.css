@@ -1,0 +1,147 @@
+body {margin:0;}
+/**/
+/* NAVBAR */
+.navbar{
+    z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b98d64;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #b98d64;
+}
+
+.active {
+  background-color: #b98d64;
+}
+
+/* SITE */
+.pasta {
+    position: sticky;
+    top: 0;
+}
+
+/* BACKGROUND EM BAIXO DA NAVBAR*/
+#bg1 {
+    height: 100vh;
+    background-color: #b98d64;
+    z-index: 0;
+    color: aliceblue;
+
+}
+
+/* VETOR DAS PASTAS */
+.angle{
+    position: relative;
+    z-index: 2;
+
+}
+.angle:after{
+    content: "";
+    position: absolute;
+}
+/* TEXTOS */
+.txt{
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+}
+/* PASTA 1 */
+#folder1 {
+    height: 100vh;
+    z-index: 2;
+}
+/* VETOR DA PASTA 1 */
+.angle1::after{
+    background-color: #fff8dc;
+    clip-path: polygon( 49.80% 4.50%, 50.20% 4.40%, 50.50% 4.10%, 51.90% 0.70%, 52.20% 0.30%, 52.50% 0.10%, 53.10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 4.50% );
+}
+.angle1, .angle1:after{
+    height: 100%;
+    width: 100%;
+}
+
+/* PASTA 2 */
+#folder2 {
+    height: 100vh;
+    z-index: 2;
+} 
+/* VETOR DA PASTA 2 */
+.angle2::after{
+    background-color: #bacdff;
+    clip-path: polygon( 59.80% 4.50%, 60.20% 4.40%, 60.50% 4.10%, 61.90% 0.70%, 62.20% 0.30%, 62.50% 0.10%, 63.10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 4.50% );
+}
+.angle2, .angle2:after{
+    height: 100%;
+    width: 100%;
+}
+
+/* PASTA 3 */
+#folder3 {
+    height: 100vh;
+    z-index: 2;
+} 
+/* VETOR DA PASTA 3 */
+.angle3::after{
+    background-color: #ffbaff;
+    clip-path: polygon( 69.80% 4.50%, 70.20% 4.40%, 70.50% 4.10%, 71.90% 0.70%, 72.20% 0.30%, 72.50% 0.10%, 73.10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 4.50% );
+}
+.angle3, .angle3:after{
+    height: 100%;
+    width: 100%;
+}
+
+/* PASTA 4 */
+#folder4 {
+    height: 100vh;
+    z-index: 2;
+} 
+/* VETOR DA PASTA 5 */
+.angle4::after{
+    background-color: #d3f4c5;
+    clip-path: polygon( 79.80% 4.50%, 80.20% 4.40%, 80.50% 4.10%, 81.90% 0.70%, 82.20% 0.30%, 82.50% 0.10%, 83.10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 4.50% );
+}
+.angle4, .angle4:after{
+    height: 100%;
+    width: 100%;
+}
+
+/* PASTA 5 */
+#folder5 {
+    height: 100vh;
+    z-index: 2;
+} 
+/* VETOR DA PASTA 5 */
+.angle5::after{
+
+    background-color:  #d1a16e;
+    clip-path: polygon( 89.80% 4.50%, 90.20% 4.40%, 90.50% 4.10%, 91.90% 0.70%, 92.20% 0.30%, 92.50% 0.10%, 93.10% 0.00%, 100% 0.00%, 100% 100%, 0.00% 100%, 0.00% 4.50% );
+
+}
+
+.angle5, .angle5:after{
+    height: 100%;
+    width: 100%;
+}
+
