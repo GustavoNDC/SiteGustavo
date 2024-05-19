@@ -64,7 +64,7 @@ li a:hover:not(.active) {
 /* TEXTOS */
 .txt{
     position: absolute;
-    top: 40%;
+    top: 10%;
     z-index: 3;
 }
 /* PASTA 1 */
@@ -145,3 +145,75 @@ li a:hover:not(.active) {
     width: 100%;
 }
 
+
+
+
+
+
+
+#images{
+    
+}
+
+
+
+
+
+
+
+
+
+.project-card {
+
+    padding: 20px;
+    width: 90%; /* Ajustar conforme necessário */
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.text-content p {
+    font-size: 0.9em;
+    color: #e0e0e0;
+    margin-bottom: 15px; /* Espaço entre texto e botões */
+}
+
+.text-content a {
+    color: #93C9F7;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 15px; /* Espaço entre texto e botões */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #A0E9A1;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px; /* Espaço entre os botões */
+}
+
+.project-image {
+    flex: 1;
+    width: 200px; /* Ajustar conforme necessário */
+    border-radius: 10px;
+    object-fit: cover;
+}
